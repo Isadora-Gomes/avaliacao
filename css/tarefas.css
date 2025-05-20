@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    color: #1e0707;
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    z-index: 50;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.4s ease;
+}
+
+#header.ativo{
+    top: -95px;
+    opacity: 0;
+}
+
+#container {
+    max-width: 1600px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        background-color: #d8c5c4;
+
+}
+#box-img{
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    width: 173px;
+    float: left;
+
+}
+#nav1{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+#user-div{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#user{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #0e3960;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 7px;
+    align-self: center;
+}
+#opt-nome{
+    display: none;
+}
+#opt-sair{
+    background-color: #d8c5c4;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #1e0707;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 3vw;
+}
+
+a{
+    transition: color 0.3s;
+}
+
+a:hover{
+    color:#897474;
+}
+
+
+#checkbox{
+    display: none;
+}
+
+#botao{
+    display: none;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin-right: 10%;
+}
+
+#nav2{ 
+    display: none;
+    position: absolute;
+    background-color: rgba(99, 149, 187, 0.814);
+    top: 70px;
+    right: 0;
+    width: 200px;
+    z-index: 1; 
+    border: solid 5px rgb(99, 149, 187);
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#hm{
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#hm h3{
+    font-size: 25px;
+}
+#addTask{
+    margin: 30px 90px;
+    display: flex;
+    text-align: center;
+}
+#addTask a{
+    text-decoration: none;
+    color: #1e0707;
+    font-weight: bold;
+    font-size: 24px;
+}
+#mural{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+}
+#tarefas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.data{
+    width: 300px;
+    padding: 18px;
+    background-color: #d8c5c4;;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.data p{
+    margin-top: 15px;
+    font-size: 17px;
+}
+
