@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Tarefas
+# Sistema de gerenciamento de tarefas
 
 Este é um sistema web simples para gerenciamento de tarefas, que permite o cadastro de usuários, registro de tarefas vinculadas a esses usuários e visualização das tarefas organizadas por status, com opções de edição, exclusão e alteração de status.
 
