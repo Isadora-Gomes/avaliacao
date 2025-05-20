@@ -23,7 +23,7 @@
                 <ul id="nav1">
                     <li><h3><a href="./cadastroUser.php">cadastro</a></h3></li>
                     <li><h3><a href="./cadastroTarefas.php">adicionar tarefa</a></h3></li>
-                    <li><h3><a href="./gerenciamento.php">tarefas</a></h3></li>
+                    <li><h3><a href="./index.php">tarefas</a></h3></li>
                 </ul>
                 <div id="user-div">
                     <?php
@@ -47,7 +47,7 @@
                 <ul id="nav2">
                     <li><h3><a href="./cadastroUser.php">cadastro</a></h3></li>
                     <li><h3><a href="./cadastroTarefas.php">adicionar tarefa</a></h3></li>
-                    <li><h3><a href="./gerenciamento.php">tarefas</a></h3></li>
+                    <li><h3><a href="./index.php">tarefas</a></h3></li>
                 </ul>
             </nav>
         </div>
@@ -76,7 +76,7 @@ session_start();
                             echo "<p>" . $linha['prioridade_tarefa'] . "</p>";
                             echo "<p>" . $linha['data_cadastrada'] . "</p>";
                             echo "<p>" . $linha['status_tarefa'] . "</p>";
-                            echo "<div>";
+                            echo "</div>";
                         }                   
                     }
                         ?>

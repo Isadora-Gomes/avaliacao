@@ -1,0 +1,81 @@
+#form-section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-tarefa {
+    background-color: #d8c5c4;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#form-tarefa h2 {
+    text-align: center;
+    color: #1e0707;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #1e0707;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#btn-enviar {
+    width: 100%;
+    background-color: #1e0707;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn-enviar:hover {
+    background-color: #3a2020;
+}
+
+@media (max-width: 600px) {
+    #form-tarefa {
+        padding: 20px;
+    }
+
+    #form-tarefa h2 {
+        font-size: 22px;
+    }
+
+    .form-group label {
+        font-size: 15px;
+    }
+
+    #btn-enviar {
+        font-size: 15px;
+    }
+}
